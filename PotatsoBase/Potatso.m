@@ -11,7 +11,9 @@
 @implementation Potatso
 
 + (NSString *) sharedGroupIdentifier {
-    // fixed issue 13: if value isn't fixed, but use value from [[NSBundle mainBundle] bundleIdentifier], occasionally the app will fail to connect. So we fixed it via harded-code value as users dont have to customize this value anyway.
+    // reverted back
+    // very curious why grabbing value from Info.plist will result in cannot connect to VPN all the time
+    // it needs to be fixed like this as always
     return @"group.io.wasin.potatso";
 }
 

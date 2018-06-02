@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4.6</string>
+	<string>1.6.1</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -30,19 +30,13 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>121</string>
+	<string>123</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
-		<string>9dd1eb88e3ce406adfaeb7af1844ed7e370e8e03</string>
+		<string>92326569315d2336cbe215eae2b015aef513ed3c</string>
 		<key>Kits</key>
 		<array>
-			<dict>
-				<key>KitInfo</key>
-				<dict/>
-				<key>KitName</key>
-				<string>Answers</string>
-			</dict>
 			<dict>
 				<key>KitInfo</key>
 				<dict/>
@@ -62,6 +56,13 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Scan QRCode to import configuration</string>
+	<key>PotatsoInternal</key>
+	<dict>
+		<key>GroupIdentifier</key>
+		<string>group.io.wasin.potatso</string>
+		<key>LogglyAPIKey</key>
+		<string>488db635-457d-48f4-8818-ffcd489f588b</string>
+	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
